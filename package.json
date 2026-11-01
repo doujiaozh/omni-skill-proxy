@@ -1,0 +1,36 @@
+{
+  "name": "omni-skill-proxy",
+  "version": "1.0.0",
+  "description": "Omni-Skill-Proxy - AI useless text filter and prompt injector gateway. 把所有客套话挡在网关之外，把最纯粹的代码留给开发者。OpenAI & Anthropic compatible local proxy, zero native dependencies.",
+  "main": "dist/index.js",
+  "bin": {
+    "omni-skill-proxy": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc -w",
+    "demo": "node demo/demo.js"
+  },
+  "keywords": [
+    "proxy",
+    "llm-gateway",
+    "openai",
+    "anthropic",
+    "claude",
+    "sse",
+    "stream-filter",
+    "prompt-injection",
+    "code-only",
+    "zero-dependency",
+    "skill-md"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^22.0.0"
+  }
+}
